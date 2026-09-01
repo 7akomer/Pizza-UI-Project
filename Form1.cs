@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// Hi Friend
+
 namespace pizza_progecte
 {
     public partial class Form1 : Form
@@ -129,7 +131,7 @@ namespace pizza_progecte
 
         private void radioButton5_CheckedChanged(object sender, EventArgs e)
         {
-            crust = 2;
+            crust = 2;    
             if (radioButton5.Checked)
             {
                 price += 7;
